@@ -70,6 +70,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hr_system.wsgi.application'
 
+# Custom user model for authentication
+AUTH_USER_MODEL = 'hr_management.CustomUser'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
